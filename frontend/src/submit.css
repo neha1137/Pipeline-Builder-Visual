@@ -1,0 +1,230 @@
+/* ================================
+   SUBMIT BUTTON
+================================ */
+
+.submit-container {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.submit-button {
+  padding: 12px 24px;
+
+  border: 1px solid #c7d7e8;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #263b52;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 3px 10px rgba(60, 90, 120, 0.12);
+
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.submit-button:hover {
+  background: #f4f8fc;
+  border-color: #a9c1d8;
+  box-shadow: 0 5px 14px rgba(60, 90, 120, 0.16);
+}
+
+.submit-button:active {
+  transform: translateY(1px);
+}
+
+
+/* ================================
+   OVERLAY
+================================ */
+
+.submit-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(35, 55, 75, 0.22);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+
+  padding: 20px;
+}
+
+
+/* ================================
+   MODAL
+================================ */
+
+.submit-modal {
+  position: relative;
+
+  width: 100%;
+  max-width: 460px;
+
+  padding: 30px;
+
+  background: #ffffff;
+
+  border: 1px solid #d7e3ef;
+  border-radius: 14px;
+
+  box-shadow:
+    0 12px 35px rgba(40, 70, 100, 0.15),
+    0 2px 8px rgba(40, 70, 100, 0.06);
+
+  color: #26384d;
+}
+
+
+/* ================================
+   CLOSE BUTTON
+================================ */
+
+.modal-close {
+  position: absolute;
+
+  top: 16px;
+  right: 18px;
+
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: transparent;
+
+  color: #7c91a6;
+
+  font-size: 24px;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  background: #f2f6fa;
+  color: #344b61;
+}
+
+
+/* ================================
+   TITLE
+================================ */
+
+.submit-modal h2 {
+  margin: 0 40px 7px 0;
+
+  color: #20364d;
+
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: -0.3px;
+}
+
+.modal-description {
+  margin: 0 0 24px;
+
+  color: #7890a6;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* ================================
+   RESULT INFORMATION
+================================ */
+
+.result-list {
+  border-top: 1px solid #e3ebf3;
+  border-bottom: 1px solid #e3ebf3;
+}
+
+.result-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 14px 2px;
+
+  border-bottom: 1px solid #edf2f7;
+
+  font-size: 14px;
+}
+
+.result-row:last-child {
+  border-bottom: none;
+}
+
+.result-row span {
+  color: #7890a6;
+}
+
+.result-row strong {
+  color: #304961;
+  font-weight: 600;
+}
+
+
+/* ================================
+   DAG MESSAGE
+================================ */
+
+.dag-description {
+  margin: 18px 0 24px;
+
+  color: #304961;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+/* ================================
+   DONE BUTTON
+================================ */
+
+.done-button {
+  width: 100%;
+
+  padding: 12px 18px;
+
+  border: 1px solid #035630;
+  border-radius: 8px;
+
+  background: #04f86e;
+  color: #010c10;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.done-button:hover {
+  background: #3ae08a;
+  border-color: #79b497;
+}
+
+.done-button:active {
+  background: #d0e8da;
+}
